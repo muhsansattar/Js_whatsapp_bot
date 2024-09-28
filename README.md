@@ -6,31 +6,6 @@
 This project is a simple WhatsApp bot built using Node.js. It uses the Google Custom Search API to fetch search results and Twilio to handle WhatsApp messaging. The bot is exposed to the web using ngrok for testing and development purposes.
 
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Create%20a%20whatsapp%20chatbot%20search%20enginewith%20javascript%20and%20Twilio.&url=https://github.com/Ileriayo/js-whatsapp-bot&via=ileriayodavid&hashtags=chatbot,ai,javascript,future,twilio,developers)
-
-    
-## See screenshot below:
-    ![](screenshots/api-key.PNG)
-
-    b. Create a custom search engine from [here](https://cse.google.com/cse/create/new).
-    Under `sites to reach`, enter `www.google.com`.
-    Give the search engine a name of your choice.
-    Take note of the Search
-
-    See the screenshot below:
-    
-    ![](screenshots/cse.PNG)
-
-    c. create a `.env` file. Paste the keys gotten from (a) and (b) above. See the `.env.example` file as an example of it's content.
-
-    d. Run the app `npm run start:dev` (Take note of the Ngrok url displayed on the terminal)
-    
-    e. Create an account on [Twilio](https://www.twilio.com) and navigate to the [Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox). Follow the instructions from Twilio to get a test whatsapp account.
-    At the end of the setup, paste the url from (d) above into the input field with the label `WHEN A MESSAGE COMES IN`. At the end of the URL, add '`/bot`' and hit save.
-
-    See the screenshot below:
-    ![](screenshots/twilio.PNG)
-
 ## Features
 
 - Responds to WhatsApp messages.
